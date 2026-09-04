@@ -1,0 +1,4 @@
+metric,value
+holdout_MAE,4.847130889938444
+residual_SD,6.336987280608816
+service_level,0.95
