@@ -1,0 +1,31 @@
+problem_id,answer,reasoning
+MATH001,5,I use linear equation to solve the task and then compute the requested result.
+MATH002,3x^2 + 2,I use derivative to solve the task and then compute the requested result.
+MATH003,0.5,I use integral to solve the task and then compute the requested result.
+MATH004,5,I use determinant to solve the task and then compute the requested result.
+MATH005,0.5,I use binomial probability to solve the task and then compute the requested result.
+MATH006,4,I use first order condition to solve the task and then compute the requested result.
+MATH007,3,I use factorization to solve the task and then compute the requested result.
+MATH008,1,I use limit to solve the task and then compute the requested result.
+MATH009,6,I use trace to solve the task and then compute the requested result.
+MATH010,3.5,I use expectation to solve the task and then compute the requested result.
+MATH011,3,I use logarithm to solve the task and then compute the requested result.
+MATH012,1/x,I use derivative to solve the task and then compute the requested result.
+MATH013,5,I use completing square to solve the task and then compute the requested result.
+MATH014,3,I use rank to solve the task and then compute the requested result.
+MATH015,0.2,I use variance to solve the task and then compute the requested result.
+MATH016,55,I use arithmetic series to solve the task and then compute the requested result.
+MATH017,sin(x)+C,I use antiderivative to solve the task and then compute the requested result.
+MATH018,"2,5",I use eigenvalue to solve the task and then compute the requested result.
+MATH019,0.63,I use complement to solve the task and then compute the requested result.
+MATH020,6,I use gradient to solve the task and then compute the requested result.
+MATH021,x+1,I use factorization to solve the task and then compute the requested result. The simplification is valid provided x!=1.
+MATH022,12x^2,I use second derivative to solve the task and then compute the requested result.
+MATH023,7,I use dot product to solve the task and then compute the requested result.
+MATH024,3,I use binomial expectation to solve the task and then compute the requested result.
+MATH025,3,I use first order condition to solve the task and then compute the requested result.
+MATH026,9,I use substitution to solve the task and then compute the requested result.
+MATH027,1,I use limit to solve the task and then compute the requested result.
+MATH028,5,I use euclidean norm to solve the task and then compute the requested result.
+MATH029,0.25,I use independence to solve the task and then compute the requested result.
+MATH030,yes,I use second derivative to solve the task and then compute the requested result.
