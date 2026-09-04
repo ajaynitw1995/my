@@ -1,46 +1,41 @@
-# AI Mathematical Reasoning & Reward Validation Framework
+# Applied Mathematics, AI & Decision Analytics Portfolio
 
-A transparent, reproducible prototype for evaluating structured mathematical AI responses.
+A compact portfolio of reproducible projects connecting applied mathematics, AI evaluation, decision science, predictive analytics, and scientific computing.
 
-## What it demonstrates
-- Benchmark construction across multiple mathematics domains
-- Rule-based final-answer validation
-- Reasoning-concept coverage checks
-- Constraint checks
-- Weighted reward computation
-- Domain-level evaluation summaries
+## Projects
 
-## Reward rubric
-- Final answer correctness: 65%
-- Required-concept coverage: 20%
-- Constraint compliance: 10%
-- Reasoning present: 5%
+### 1. AI Mathematical Reasoning & Reward Validation
+Transparent Python framework for evaluating mathematical AI responses across Algebra, Calculus, Linear Algebra, Probability, and Optimization.
 
-This is intentionally a transparent prototype rather than a claim of full formal proof verification. The included demonstration outputs contain six deliberately incorrect answers so the evaluation pipeline can be tested against known failures.
+**Highlights:** 30 benchmark tasks, 80.0% exact-answer accuracy, mean composite reward 0.870.
 
-## Run
-```bash
-pip install -r requirements.txt
-python evaluate.py
-```
+➡️ [Open project](./ai-math-reward-validation/)
 
-## Inputs
-- `data/problems.csv`
-- `data/model_outputs.csv`
+### 2. Demand Forecasting & Inventory Optimization under Uncertainty
+Decision-analytics workflow combining seasonal demand forecasting, forecast-error estimation, safety stock, and monthly order-up-to recommendations.
 
-## Outputs
-- `outputs/evaluation_results.csv`
-- `outputs/summary_by_domain.csv`
-- `outputs/reward_breakdown.png` (generated when the script is run)
+**Highlight:** 12-month holdout MAE ≈ 4.85 demand units.
 
-## Demonstration results
+➡️ [Open project](./demand-forecast-inventory/)
 
-| Metric | Result |
-|---|---:|
-| Exact-answer accuracy | 80.0% |
-| Mean composite reward | 0.870 |
-| Benchmark size | 30 tasks |
-| Domains | 5 |
+### 3. Student Performance Analytics & Early-Warning System
+Predictive analytics pipeline using attendance, assessment, participation, and engagement indicators to generate student-level academic-risk probabilities and intervention rankings.
 
-## Extension ideas
-Replace the rule-based concept checker with symbolic verification, theorem-prover checks, or an LLM-as-judge benchmark with human calibration.
+**Highlights:** synthetic demonstration data, ≈84% classification accuracy, ROC-AUC ≈0.946.
+
+➡️ [Open project](./student-risk-analytics/)
+
+### 4. Parameter-Uniform Numerical Solver for Singularly Perturbed Problems
+Python implementation of a Shishkin fitted-mesh finite-difference solver for a singularly perturbed reaction-diffusion boundary-value problem.
+
+**Highlights:** multi-epsilon convergence experiments, boundary-layer computation, and parameter-uniform error analysis.
+
+➡️ [Open project](./shishkin-spp-solver/)
+
+## Core areas
+
+`Python` · `Applied Mathematics` · `AI Evaluation` · `Decision Science` · `Operations Research` · `Predictive Analytics` · `Numerical Analysis` · `Scientific Computing`
+
+## Notes
+
+The portfolio projects use synthetic or demonstration data where applicable and are intended to provide transparent, reproducible examples of applied analytical workflows.
