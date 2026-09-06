@@ -2,6 +2,13 @@
 
 ReasonEval AI is a math-first reasoning-evaluation and assessment platform for students, faculty and institutions.
 
+## Project folder
+ReasonEval is intentionally kept in its own top-level folder inside the portfolio repository:
+
+`ReasonEval_AI/`
+
+This keeps the website/product code separate from the other research and analytics projects in `ajaynitw1995/my`.
+
 ## Current V8 capabilities
 - hybrid deterministic + reasoning evaluation,
 - student public assignment links and tracking receipts,
@@ -16,12 +23,10 @@ ReasonEval AI is a math-first reasoning-evaluation and assessment platform for s
 - Docker and Railway deployment configuration.
 
 ## Railway deployment
-This project is stored as a subdirectory of the existing portfolio repository.
-
 In Railway:
 1. Deploy from GitHub.
 2. Select `ajaynitw1995/my`.
-3. Set **Root Directory** to `/reasoneval-ai`.
+3. Set **Root Directory** to `/ReasonEval_AI`.
 4. Add a PostgreSQL service.
 5. Set the web service `DATABASE_URL` from the Postgres service reference.
 6. Generate a Railway domain.
