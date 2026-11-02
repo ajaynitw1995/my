@@ -1,0 +1,33 @@
+Nature Portfolio Machine Learning Checklist v1.1 - draft responses
+Manuscript: Resolution blindness and certification of learned PDE solvers
+Corresponding author: Ajay Singh Rathore
+
+1. Availability and reproducibility of Code and Data
+- Source code included in submission / public repository: YES for peer-review submission archives; public DOI repository pending author-approved release.
+- Compiled standalone software: NO / not applicable.
+- Test dataset and replication instructions/scripts: YES. All datasets are computationally generated; compact source-data tables and figure scripts are supplied. Larger artifacts are in peer-review archives.
+- README with installation/running instructions: YES.
+- Code made available to reviewers: YES (Code Review Package v1 and Nature GINO Baseline v2).
+- Pretrained models/checkpoints: supplied in reviewer archives where applicable; GINO is explicitly a reimplementation.
+- Post-publication access: manuscript states a persistent archival release before publication.
+
+2. Datasets
+- All data sources listed: YES; study data are generated computationally from the PDEs, meshes and boundary distributions described in Methods.
+- Public train/test/validation accession numbers: NOT YET PUBLIC AT TRANSFER; reviewer archives supplied, DOI-minting repository remains.
+- Train/validation/test separation: YES. Held-out in-range validation and blind singular-limit/high-Peclet tests are reported.
+- Relevant physical benchmark: 25 blind functions per Pe; test seed 20261103.
+
+3. Model reporting
+- Model families/architectures: YES (FNO, DeepONet, masked FNO, Geo-FNO, architecture-matched GINO reimplementation).
+- Hyperparameters: reported in Methods/SI for main geometry-aware baselines.
+- Model selection: best checkpoint selected by held-out in-range validation error for Geo-FNO/GINO.
+- Seeds: 20261103 physical blind tests; 20261104 Geo-FNO; 20261105 GINO; additional provenance in crosswalk.
+
+4. Evaluation and claims
+- Metrics: relative finite-element mass-matrix L2 and maximum error defined in Methods.
+- Blind/OOD evaluation: YES.
+- Baselines: coarse FEM, masked FNO, Geo-FNO, GINO reimplementation, mesh-native surrogate.
+- Limitations/non-claims: explicitly stated.
+- Statistical significance tests: NOT USED; no inferential significance claims are made.
+
+Remaining action: mint public DOI, insert DOI/license in manuscript and repository metadata, and scan release archive for secrets/credentials/absolute paths.
