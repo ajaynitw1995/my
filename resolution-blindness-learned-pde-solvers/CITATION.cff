@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this software/data package, please cite the associated article."
+message: "If you use this software/data package, please cite the associated article and archival release."
 title: "Reproducibility package for Resolution blindness and stability-aware certification of learned PDE solvers"
 version: "1.0.0"
 authors:
   - family-names: "Rathore"
     given-names: "Ajay Singh"
 date-released: "2026-11-02"
+repository-code: "https://github.com/ajaynitw1995/my/tree/main/resolution-blindness-learned-pde-solvers"
+license: MIT
