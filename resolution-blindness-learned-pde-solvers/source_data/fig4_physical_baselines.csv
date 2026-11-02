@@ -1,0 +1,7 @@
+method,Pe1000_relL2_percent,Pe1000_Linf,Pe2000_relL2_percent,Pe2000_Linf
+Coarse FEM,26.09,0.389,37.87,0.467
+Masked FNO,19.6,0.659,30.32,0.875
+Geo-FNO,16.98,0.59,26.83,0.685
+GINO reimpl.,17.67,0.541,28.47,0.555
+Mesh-native,3.8,0.034,13.09,0.119
+Hybrid,2.01,0.017,6.57,0.052
