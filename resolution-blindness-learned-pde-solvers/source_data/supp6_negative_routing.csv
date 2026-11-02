@@ -1,0 +1,6 @@
+Pe,baseline_coordinate_relL2_percent,continuum_finetuned_relL2_percent,sparse_before_relL2_percent,sparse_after_relL2_percent
+33.3,3.297,2.2456,,
+125,4.286,3.6404,,
+500,11.4431,7.6286,,
+1000,19.1292,11.7701,10.5276,8.205
+2000,28.7264,18.5503,15.3429,13.4633
