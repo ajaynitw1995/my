@@ -1,6 +1,6 @@
 {
   "title": "Resolution blindness and certification of learned PDE solvers - reproducibility package",
-  "description": "Code, source data, figure-generation scripts, numerical artifacts and reproducibility metadata supporting the manuscript 'Resolution blindness and certification of learned PDE solvers'.",
+  "description": "Code, source data, figure-generation scripts, numerical artifacts and reproducibility metadata supporting the manuscript 'Resolution blindness and certification of learned PDE solvers'. Code is MIT licensed; source data and documentation are CC BY 4.0.",
   "creators": [
     {
       "name": "Rathore, Ajay Singh",
@@ -15,6 +15,7 @@
     "a posteriori certification",
     "multiscale numerical methods"
   ],
+  "license": "mit",
   "upload_type": "software",
   "access_right": "open",
   "publication_date": "2026-11-02"
