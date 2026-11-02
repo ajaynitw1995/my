@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software/data package, please cite the associated article."
+title: "Reproducibility package for Resolution blindness and stability-aware certification of learned PDE solvers"
+version: "1.0.0"
+authors:
+  - family-names: "Rathore"
+    given-names: "Ajay Singh"
+date-released: "2026-11-02"
