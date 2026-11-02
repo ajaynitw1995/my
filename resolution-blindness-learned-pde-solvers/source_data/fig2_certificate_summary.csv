@@ -1,0 +1,10 @@
+metric,value
+reaction_blind_cases_certified,100
+reaction_total_blind_cases,100
+reaction_max_effectivity_eps_1e-6,0.9998
+turning_raw_violations_all,85
+turning_total_cases_all,100
+turning_raw_violations_eps_le_1e-4,75
+turning_total_cases_eps_le_1e-4,75
+turning_worst_true_over_raw_residual,2.03
+turning_worst_true_over_stability_certificate,0.373
