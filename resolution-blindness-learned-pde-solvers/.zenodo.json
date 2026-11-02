@@ -1,0 +1,21 @@
+{
+  "title": "Resolution blindness and certification of learned PDE solvers - reproducibility package",
+  "description": "Code, source data, figure-generation scripts, numerical artifacts and reproducibility metadata supporting the manuscript 'Resolution blindness and certification of learned PDE solvers'.",
+  "creators": [
+    {
+      "name": "Rathore, Ajay Singh",
+      "affiliation": "IILM University, Gurugram, Haryana, India"
+    }
+  ],
+  "keywords": [
+    "scientific machine learning",
+    "neural operators",
+    "partial differential equations",
+    "singular perturbations",
+    "a posteriori certification",
+    "multiscale numerical methods"
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "publication_date": "2026-11-02"
+}
